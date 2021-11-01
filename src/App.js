@@ -7,7 +7,9 @@ import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <Switch>
+   <div>
+     <h1>Hello</h1>
+      <Switch>
       <Route path="/login">
         <Login />
       </Route>
@@ -21,6 +23,7 @@ function App() {
         <Home />
       </Route>
     </Switch>
+   </div>
   );
 }
 
